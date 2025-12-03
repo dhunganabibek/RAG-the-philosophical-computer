@@ -1,13 +1,13 @@
 # Summary of Slides
 
-**Top 5 Key Themes in the CS 4260 Slide Collections**
+**Top 5 Key Themes Across the CS 4260 Slide Sets**
 
-| # | Theme | Core Idea (definition) |
-|---|-------|------------------------|
-| 1 | **Problem Representation & Search** | The way an AI problem is formalised—states, actions, transitions, goal tests—directs what kind of search algorithm can be applied. Efficient search hinges on exploiting structure in the problem space (e.g., branching factor, depth) to prune useless branches. |
-| 2 | **Heuristic Design & Admissibility** | Heuristics are problem‑specific functions that estimate the cost from a state to a goal. Admissible heuristics (never over‑estimate) guarantee optimality for informed search (A*). The slide decks cover how to craft heuristics, test admissibility, and balance computation vs. quality. |
-| 3 | **Fundamentals of Machine Learning** | The classic triad of supervised, unsupervised, and reinforcement learning, together with core concepts such as bias‑variance trade‑off, cross‑validation, loss functions, regularisation, and model evaluation metrics (accuracy, precision, recall, ROC). |
-| 4 | **Deep Learning & Neural Architectures** | Neural nets as universal function approximators: feed‑forward, convolutional, recurrent, LSTM/GRU, and transformer blocks. Training via back‑propagation, gradient descent, and optimisation tricks (batch normalisation, dropout). |
-| 5 | **Language Models & NLP Foundations** | Statistical (n‑gram) and neural (RNN, LSTM, Transformer) language models, their objective functions (next‑token prediction, masked language modelling), and their application to tasks such as translation, summarisation, and dialogue. Also covers modern large‑scale models (GPT, BERT, T5) and their architectural highlights. |
+| # | Theme | Core Ideas & Why They Matter |
+|---|-------|------------------------------|
+| **1** | **Search & Planning Algorithms** | Uninformed search (BFS, DFS, UCS) + Informed search (A*, heuristic design).  Includes constraint‑satisfaction, graph traversal, and optimization over state‑spaces.  These form the algorithmic backbone for solving combinatorial problems, robotics path‑planning, and AI planning. |
+| **2** | **Supervised & Unsupervised Learning Foundations** | Supervised learning (classification, regression, loss functions, gradient‑based optimization) + Unsupervised learning (clustering, dimensionality reduction, generative models).  Covers key concepts such as bias‑variance trade‑off, regularization, and the statistical learning framework that underpins modern AI. |
+| **3** | **Reinforcement Learning (RL)** | Markov Decision Processes (MDPs), policy/value functions, temporal‑difference learning, and policy gradients.  Emphasizes exploration‑exploitation, reward shaping, and the learning‑from‑feedback loop that powers agents in dynamic environments. |
+| **4** | **Language Models & NLP** | Sequence modeling (RNNs, LSTMs, Transformers), attention mechanisms, pre‑training & fine‑tuning, and evaluation metrics (perplexity, BLEU).  Highlights how statistical language models capture syntax, semantics, and context for tasks like translation, summarization, and dialogue. |
+| **5** | **Probabilistic & Decision‑Theoretic Foundations** | Bayesian inference, graphical models (Bayes nets, MRFs), decision theory (utility, risk), and probabilistic reasoning under uncertainty.  Provides the mathematical language that ties together search, learning, and RL into a coherent theory of intelligent decision‑making. |
 
-These five themes capture the progression from basic problem‑solving techniques through classic machine‑learning theory, to modern deep‑learning methods and their specialised application in natural‑language processing.
+These themes distill the most critical concepts presented across the Searching and Machine‑Learning slide sets from Prof. Doug Fisher, Pieter Abbeel, Igor Mordatch, and Kyle Moore. They give a coherent framework for understanding the algorithmic, statistical, and theoretical building blocks of modern artificial intelligence.
